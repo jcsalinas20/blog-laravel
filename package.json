@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+        "start": "php artisan config:cache && php artisan route:cache && php artisan serve",
         "dev": "npm run development",
         "development": "mix",
         "watch": "mix watch",
